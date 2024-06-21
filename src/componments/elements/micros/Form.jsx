@@ -8,7 +8,7 @@ import Vectorpen from "../../../assets/icons/Vectorpen.svg";
 const Form = () => {
   return (
     <div className="w-full flex flex-col lg:gap-[35px] gap-[20px] lg:px-16 px-7">
-
+{/* 
       <div className="flex lg:flex-row flex-col lg:gap-[73px] gap-[20px]">
         <div className="relative lg:w-1/2 w-full px-[6px]">
           <input
@@ -32,14 +32,46 @@ const Form = () => {
             }}
           />
         </div>
-      </div>
+      </div> */}
+
+<div className="flex lg:flex-row flex-col lg:gap-[73px] gap-[20px]">
+  <div className="relative lg:w-1/2 w-full px-[6px]">
+    <div className="relative">
+      <input
+        type="text"
+        placeholder="Your name"
+        className="font-poppins w-full h-[43px] bg-[#F4F6FA] border-[2px] border-[#F4F6FA] py-4 rounded-lg pl-11"
+      />
+      <img
+        src={Vectorname}
+        className="absolute left-3 top-1/2 transform -translate-y-1/2 w-[25px] h-[25px]"
+        alt="Name Icon"
+      />
+    </div>
+  </div>
+  <div className="relative lg:w-1/2 w-full">
+    <div className="relative">
+      <input
+        type="text"
+        placeholder="Your E-mail"
+        className="font-poppins w-full h-[43px] bg-[#F4F6FA] border-[2px] border-[#F4F6FA] rounded-lg pl-11"
+      />
+      <img
+        src={Vectormessage}
+        className="absolute left-3 top-1/2 transform -translate-y-1/2 w-[25px] h-[25px]"
+        alt="Email Icon"
+      />
+    </div>
+  </div>
+</div>
+
       
-      <div className="flex lg:flex-row flex-col   lg:gap-[73px] gap-[20px]">
+      {/* <div className="flex lg:flex-row flex-col   lg:gap-[73px] gap-[20px]">
         <div className="relative lg:w-1/2 w-full">
           <input
             type="text"
             placeholder="Enter your number"
-            className="font-poppins w-full h-[43px]  border-[2px] border-[#F4F6FA] rounded-lg pl-12"
+            className="font-poppins w-full h-[43px]  border-[2px] bg-[#F4F6FA]  border-[#F4F6FA] rounded-lg pl-12"
             style={{
               background: `url(${Vectorcall}) no-repeat 8px center, #F4F6FA`,
               backgroundSize: "25px 25px",
@@ -57,7 +89,39 @@ const Form = () => {
             }}
           />
         </div>
-      </div>
+      </div> */}
+
+<div className="flex lg:flex-row flex-col lg:gap-[73px] gap-[20px]">
+  <div className="relative lg:w-1/2 w-full">
+    <div className="relative">
+      <input
+        type="text"
+        placeholder="Enter your number"
+        className="font-poppins w-full h-[43px] border-[2px] bg-[#F4F6FA] border-[#F4F6FA] rounded-lg pl-12"
+      />
+      <img
+        src={Vectorcall}
+        className="absolute left-3 top-1/2 transform -translate-y-1/2 w-[25px] h-[25px]"
+        alt="Call Icon"
+      />
+    </div>
+  </div>
+  <div className="relative lg:w-1/2 w-full">
+    <div className="relative">
+      <input
+        type="text"
+        placeholder="Subject"
+        className="font-poppins w-full h-[43px] bg-[#F4F6FA] border-[2px] border-[#F4F6FA] rounded-lg pl-11"
+      />
+      <img
+        src={Vectorsubject}
+        className="absolute left-3 top-1/2 transform -translate-y-1/2 w-[25px] h-[25px]"
+        alt="Subject Icon"
+      />
+    </div>
+  </div>
+</div>
+
 
       <div className="mt-[-10px]">
         <img
