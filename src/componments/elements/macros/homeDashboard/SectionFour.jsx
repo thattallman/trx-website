@@ -27,9 +27,13 @@ const SectionFour = () => {
         <h1 className="  xl:hidden text-center  text-white   font-bold font-poppins  text-[33px]">
             Candidates
           </h1>
-      <div className="xl:w-1/2 w-full  xl:h-full  flex justify-center items-center px-8 xl:px-0 mt-4 xl:mt-0 ">
-        <img src={GroupImage} />
-      </div>
+      {/* <div className="xl:w-1/2 w-full  bg-black xl:h-full  flex justify-center items-center px-8 xl:px-0 mt-4 xl:mt-0 ">
+        <img src={GroupImage} className="w-auto h-auto" />
+      </div> */}
+      <div className="xl:w-1/2 w-full  xl:h-full flex justify-center items-center px-8 xl:px-0 mt-4 xl:mt-0 py-4 ">
+  <img src={GroupImage} className=" " />
+</div>
+
       <div className="xl:w-1/2 w-full h-full flex justify-center items-center ">
         <div className="xl:w-[601px] xl:h-[582px] flex flex-col gap-8">
           <h1 className="text-white  hidden xl:flex  font-bold font-poppins  text-[33px]">
