@@ -34,7 +34,8 @@ const SectionOne = () => {
         </div>
 
         <div className=" w-full  md:w-1/2 md:h-screen flex justify-center items-center  ">
-          <img src={trxStar} className="md:w-[791px] md:h-[781px] w-[360px]   " />
+          {/* <img src={trxStar} className="md:w-[791px] md:h-[781px] w-[360px]   " /> */}
+          <img src={trxStar} className="md:w-auto md:h-auto w-[360px]    " />
         </div>
 
       </div>
