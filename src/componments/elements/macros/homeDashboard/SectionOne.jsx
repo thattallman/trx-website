@@ -8,7 +8,7 @@ const SectionOne = () => {
   
       </div>
 
-      <div className="bg-[#341845]  h-[800px] w-screen    md:flex items-center justify-between px-4  py-20 md:px-0 ">
+      <div className="bg-[#341845]  md:h-[800px] h-screen  w-screen    md:flex items-center justify-between px-4  py-20 md:px-0 ">
 
         <div className="w-full md:w-1/2 md:h-screen h-1/2 flex justify-center items-center px-5">
           <div className=" w-full  xl:w-[647px]">
