@@ -20,7 +20,7 @@ const Footer = () => {
         </h1>
         <img
           src={trc_icon_2}
-          className=" hidden lg:flex  lg:mr-[-35px] w-[61px]  h-[71px]  "
+          className=" relative  bottom-[-70px] hidden lg:flex  lg:mr-[-35px] w-[61px]  h-[71px]  "
           alt="icon"
         />
         <div className="lg:hidden w-full flex justify-center items-center  ">

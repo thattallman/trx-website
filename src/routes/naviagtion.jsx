@@ -1,49 +1,26 @@
 import React, { lazy, Suspense } from "react";
+import HomePage from '../pages/landing/Home'
+import  ClientPage from "../pages/landing/Client";
+ import CandidatePage  from "../pages/landing/Candidates";
 
-const HomePage = lazy(() => import("../pages/landing/Home"));
-const ClientPage = lazy(() => import("../pages/landing/Client"));
-const CandidatePage = lazy(() => import("../pages/landing/Candidates"));
+
 export const nav = [
   {
     path: "/",
     name: "home",
-    element: (
-      <Suspense
-        fallback={() => {
-          <div>Loading</div>;
-        }}
-      >
-        <HomePage />
-      </Suspense>
-    ),
+    element: <HomePage />,
     isPrivate: false,
   },
   {
     path: "/client",
     name: "client",
-    element: (
-      <Suspense
-        fallback={() => {
-          <div>Loading</div>;
-        }}
-      >
-        <ClientPage />
-      </Suspense>
-    ),
+    element: <ClientPage />,
     isPrivate: false,
   },
   {
     path: "/candidates",
     name: "candidates",
-    element: (
-      <Suspense
-        fallback={() => {
-          <div>Loading</div>;
-        }}
-      >
-        <CandidatePage />
-      </Suspense>
-    ),
+    element: <CandidatePage />,
     isPrivate: false,
   },
 ];
