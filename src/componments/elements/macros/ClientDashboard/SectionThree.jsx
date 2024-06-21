@@ -140,7 +140,7 @@ const SectionThree = () => {
           <img
             src={Neuclear}
             alt="icon"
-            className="rounded-[21px]  w-[533px] h-[380px] "
+            className="rounded-[21px]  w-[1000px] h-[380px] "
           />
         </div>
       </div>
