@@ -47,7 +47,7 @@ const MobileHeader = () => {
         )}
       </div>
       <div
-        className="fixed md:hidden top-0 right-0 w-2/5 h-screen bg-[#360C71] z-10 pt-16"
+        className="fixed md:hidden top-0 right-0 w-2/5 h-screen bg-[#360C71] z-10 pt-20"
         style={menuStyle}
       >
         <h1
