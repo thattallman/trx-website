@@ -4,10 +4,11 @@ const SectionFour = () => {
   const array1 = [
     {
       index: "01",
-      heading: "Rapid Turnaround",
-      desription: `We aim to provide you with a minimum of 3 candidate profiles
-              within 24-48 hours.`,
+      heading: "Driven by Your Needs",
+      desription:
+        "We work with you by first understanding your generic requirements, specific business needs, and what you’re exactly looking for in the right candidate. In addition, we put in our time to understand the bigger picture of the project to offer our assistance in a more holistic manner.",
     },
+
     {
       index: "02",
       heading: "Maximum Transparency",
@@ -19,10 +20,11 @@ const SectionFour = () => {
   const array2 = [
     {
       index: "03",
-      heading: "Driven by Your Needs",
-      desription:
-        "We work with you by first understanding your generic requirements, specific business needs, and what you’re exactly looking for in the right candidate. In addition, we put in our time to understand the bigger picture of the project to offer our assistance in a more holistic manner.",
+      heading: "Rapid Turnaround",
+      desription: `We aim to provide you with a minimum of 3 candidate profiles
+              within 24-48 hours.`,
     },
+
     {
       index: "04",
       heading: "No False Starts",
@@ -49,10 +51,9 @@ const SectionFour = () => {
           return (
             <div
               key={index}
-              className="flex flex-col gap-[15px]   justify-evenly border-r-[2px] border-b-[2px] border-r-black border-b-black rounded-[15px] py-4  pl-3"
+              className="flex flex-col gap-[15px]    justify-between border-r-[2px] border-b-[2px] border-r-black border-b-black rounded-[15px] py-4  pl-3"
             >
-              <div className="flex flex-col gap-[15px] px-4">
-             
+              <div className="flex flex-col gap-[15px] px-4 ">
                 <h1 className="font-poppins md:text-left text-center text-[23px] font-bold  ">
                   {data.heading}
                 </h1>
@@ -77,7 +78,6 @@ const SectionFour = () => {
               className="flex justify-between  flex-col gap-[15px]  border-r-[2px] border-b-[2px] border-r-black border-b-black rounded-[15px] pb-3 pt-12 pl-3"
             >
               <div className="flex flex-col gap-[15px] px-4 ">
-           
                 <h1 className="font-poppins md:text-left text-center text-[23px] font-bold  ">
                   {data.heading}
                 </h1>

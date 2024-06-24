@@ -34,7 +34,7 @@ const HomeCard = ({ image, name, description,index }) => {
     in: {
       y: '0%', // Animate to original position
       opacity: 1,
-      transition: { delay: index * 0.2, duration: 0.5, ease: 'easeInOut' }, // Customize animation
+      transition: { delay: index * 0.2, duration: 0.4, ease: 'easeInOut' }, // Customize animation
     },
   };
 

@@ -8,7 +8,7 @@ const SectionOne = () => {
       <div className="bg-[#341845]  h-screen xl:h-[850px] w-screen flex flex-col items-center justify-center  xl:gap-[40px] gap-[20px] ">
         <div className="xl:w-2/3  w-full flex flex-col gap-[15px] items-center mt-12 xl:px-4  px-6">
           <h1 className="font-poppins text-white text-center xl:text-[72px] text-[33px] xl:leading-[87px] leading-[49px]">
-            Connect with our  <span className="font-bold">Nuclear talent database!</span>
+            Connect with our  <span className="font-bold">Nuclear talent database</span>
           </h1>
           <p className="font-poppins text-white text-center text-[16px] leading-[24px]  ">
             We only focus on the nuclear sector, providing us with unmatched

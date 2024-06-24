@@ -1,57 +1,69 @@
 import React from "react";
-import sectors1 from "../../../../assets/icons/sectors1.svg";
-import sectors2 from "../../../../assets/icons/sectors2.svg";
-import sectors3 from "../../../../assets/icons/sectors3.svg";
-import sectors4 from "../../../../assets/icons/secrtors4.svg";
-import sectors5 from "../../../../assets/icons/sectors5.svg";
+import Bullet2 from "../../../../assets/icons/Bullet2.svg";
 
 const SectionTwo = () => {
-  const array = [
+  const sectorsArray = [
     {
-      img: sectors1,
       name: "Large New Build",
     },
     {
-      img: sectors2,
       name: "SMR/ MMR",
     },
     {
-      img: sectors3,
       name: "Fusion",
     },
     {
-      img: sectors4,
       name: "Decommissioning",
     },
     {
-      img: sectors5,
       name: "Radioactive Waste Management",
+    },
+    {
+      name: "Fuel Handeling ",
+    },
+    {
+      name: "Uranium Mining ",
     },
   ];
   return (
-    <div className="bg-white  mt-12 xl:mt-0 h-[1391px] xl:h-[600px] w-screen flex flex-col  xl:items-center xl:justify-center gap-7 px-[60px]">
-      <div>
-        <h1 className="font-poppins text-[33px] xl:text-[47px] font-bold  text-center xl:leading-[70px]  ">
-          Sectors We Support
-        </h1>
-      </div>
+    <>
+      <div className="bg-white   mt-12 xl:mt-0 xl:h-[600px] w-screen flex flex-col  xl:items-center xl:justify-center gap-[70px] xl:px-[60px]">
+        <div className="flex justify-evenly w-screen xl:px-[200px] ">
+          <div className="flex flex-col w-1/2 justify-center items-center">
+            <div className="h-[2px] w-full bg-gradient-to-r from-white to-[#8A3DEFD9]"></div>
+          </div>
+          <div className="xl:w-[800px] w-[900px] ">
+            <h1 className="font-poppins text-[24px] xl:text-[33px] font-bold  text-center xl:leading-[70px]  ">
+              Sectors We Support
+            </h1>
+          </div>
 
-      <div className="xl:grid xl:grid-cols-5 xl:gap-[40px] w-full  h-[241px]  ">
-        {array.map((data, index) => {
-          return (
-            <div
-              key={index}
-              className="rounded-[19px] h-[241px] w-full shadow-2xl flex flex-col gap-[35px] justify-center items-center px-3  xl:my-0  my-8"
-            >
-              <img src={data.img} alt="img" className="h-[129px] w-[129px]"/>
-              <h1 className="font-poppins font-bold text-center text-[19px]  ">
-                {data.name}
-              </h1>
-            </div>
-          );
-        })}
+          <div className="flex flex-col w-1/2 justify-center items-center">
+            <div className="h-[2px] w-full bg-gradient-to-l from-white to-[#8A3DEFD9]"></div>
+          </div>
+        </div>
+
+        <div className="slider w-11/12 h-[100px] bg-[#F9F4FF] overflow-hidden relative mx-auto ">
+          <div className="slide-track flex animate-scroll">
+            {sectorsArray.concat(sectorsArray).map((sector, index) => (
+              <div
+                key={index}
+                className="slide mx-10 h-[100px] flex-shrink-0 flex items-center justify-center"
+              >
+                <div className="text-center flex gap-[30px] ">
+                  <img src={Bullet2} alt="bullet" />
+                  <p className="text-[23px] font-poppins  font-bold">
+                    {sector.name}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="absolute top-0 left-0 w-[200px] h-[100px] bg-gradient-to-r from-white to-transparent z-10"></div>
+          <div className="absolute top-0 right-0 w-[200px] h-[100px] bg-gradient-to-l from-white to-transparent z-10"></div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

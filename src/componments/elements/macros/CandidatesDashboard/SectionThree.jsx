@@ -1,5 +1,5 @@
 import React from "react";
-import CandidatePageConstruction from "../../../../assets/icons/CandidatePageConstruction.jpeg";
+import CandidatePageConstruction from "../../../../assets/icons/CandidatePageConstruction.webp";
 import Bullet from "../../../../assets/icons/Bullet.svg";
 
 const SectionThree = () => {
@@ -28,11 +28,11 @@ const SectionThree = () => {
       </div>
       <div className="w-screen  md:grid md:grid-cols-8 md:mt-6  mt-8 flex flex-col  px-12 gap-[20px]  md:gap-[40px] ">
 
-        <div className="md:col-span-4 md:pr-28  md:h-[1000px]">
+        <div className="md:col-span-4 md:pr-28  md:h-[1000px] h-[310px]">
           <img
             src={CandidatePageConstruction}
             alt="image"
-            className="  object-cover rounded-[23px] md:h-[900px] "
+            className="  object-cover rounded-[23px] md:h-[900px] h-[310px] w-full "
           />
         </div>
 

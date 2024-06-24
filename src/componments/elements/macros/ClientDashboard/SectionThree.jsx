@@ -1,5 +1,5 @@
 import React from "react";
-import Neuclear from "../../../../assets/icons/Neuclear.jpeg";
+import Neuclear from "../../../../assets/icons/Neuclear.webp";
 import Bullet from "../../../../assets/icons/Bullet.svg";
 
 const SectionThree = () => {

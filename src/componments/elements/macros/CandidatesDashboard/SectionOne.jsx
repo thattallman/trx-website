@@ -1,8 +1,8 @@
 import React from "react";
-import candidatesGroup from "../../../../assets/icons/candidatesGroup.svg";
-import candidateLeft from "../../../../assets/icons/candidateLeft.svg";
-import candidateMiddle from "../../../../assets/icons/candidateMiddle.svg";
-import candidateRight from "../../../../assets/icons/candidateRight.svg";
+import candidatesGroup from "../../../../assets/icons/candidatesGroup.webp";
+import candidateLeft from "../../../../assets/icons/candidateLeft.webp";
+import candidateMiddle from "../../../../assets/icons/candidateMiddle.webp";
+import candidateRight from "../../../../assets/icons/candidateRight.webp";
 
 const SectionOne = () => {
   return (
@@ -11,8 +11,8 @@ const SectionOne = () => {
       <div className="bg-[#341845]  h-screen md:h-[850px] w-screen md:grid md:grid-cols-5 px-5 ">
         <div className="     hidden md:col-span-3 md:flex flex-col justify-center items-center gap-[15px] md:px-12 px-8  md:h-[850px]  ">
           <h1 className="font-poppins text-white  md:text-[47px] text-[33px] text-left ">
-            Exceptional openings available in the
-            <span className="font-bold"> nuclear domain! </span>
+            We are looking for great 
+            <span className="font-bold"> nuclear talent </span>
           </h1>
           <p className="font-poppins text-white  text-[18px] md:text-left text-center">
             Since 2019, we have been supporting individuals secure new positions

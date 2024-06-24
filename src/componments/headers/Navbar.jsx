@@ -17,7 +17,7 @@ const Navbar = () => {
 
         <Link to="/client">
           <h1 className="text-white text-[16px] font-poppins cursor-pointer ">
-            Client
+            Clients
           </h1>
         </Link>
 

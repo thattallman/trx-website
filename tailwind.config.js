@@ -18,6 +18,15 @@ export default {
       boxShadow: {
         "glowing-white": "0 0 20px rgba(255, 255, 255, 0.5)",
       },
+      keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-250px * 7))' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 7s linear infinite',
+      },
     },
   },
   plugins: [],

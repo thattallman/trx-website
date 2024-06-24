@@ -1,5 +1,6 @@
 import React from "react";
-import Construction from "../../../../assets/icons/Construction.jpeg";
+import Construction from "../../../../assets/icons/Construction.webp";
+
 
 const SectionTwo = () => {
   return (
