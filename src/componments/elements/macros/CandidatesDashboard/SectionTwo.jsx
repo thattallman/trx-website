@@ -31,7 +31,7 @@ const SectionTwo = () => {
   ];
 
   return (
-    <div className="md:h-[850px] w-screen bg-white flex flex-col justify-center items-center  md:gap-[30px] gap-[40px] md:px-4 px-6">
+    <div className="md:h-[700px] w-screen bg-white flex flex-col justify-center items-center  md:gap-[30px] gap-[40px] md:px-4 px-6">
       <div className="md:mt-0  mt-14">
         <h1 className="font-poppins md:text-[47px] text-[33px] font-bold text-center  ">
           Four Step Process

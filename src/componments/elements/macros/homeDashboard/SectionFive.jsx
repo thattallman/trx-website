@@ -4,8 +4,8 @@ import Construction from "../../../../assets/icons/Construction.svg";
 
 const SectionFive = () => {
   return (
-    <div className="bg-white md:h-[800px] w-screen flex flex-col justify-center items-center px-16 py-12 md:py-0">
-      <div className="md:mt-[-70px] flex flex-col  gap-[50px] ">
+    <div className="bg-white md:h-[700px] w-screen flex flex-col justify-center items-center px-16 py-12 md:py-0">
+      <div className="md:mt-[-20px] flex flex-col  gap-[30px] ">
         <div>
           <h1 className="md:text-[47px] text-[33px] font-poppins font-bold text-center md:text-start ">Why Us</h1>
         </div>

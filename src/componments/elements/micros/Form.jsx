@@ -207,7 +207,7 @@ const Form = () => {
         <div className="flex justify-center items-center mt-8">
           <button
             type="submit"
-            className="text-poppins text-white text-[14px]  bg-[#8A3DEF] lg:w-[155px] w-[127px] h-[42px] rounded-l-full rounded-r-full "
+            className="text-poppins text-white text-[14px]  bg-[#6B3BAB] lg:w-[155px] w-[127px] h-[42px] rounded-l-full rounded-r-full "
           >
             SEND MESSAGE
           </button>

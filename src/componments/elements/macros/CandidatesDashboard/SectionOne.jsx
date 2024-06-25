@@ -11,7 +11,7 @@ const SectionOne = () => {
       <div className="bg-[#341845]  h-screen md:h-[850px] w-screen md:grid md:grid-cols-5 px-5 ">
         <div className="     hidden md:col-span-3 md:flex flex-col justify-center items-center gap-[15px] md:px-12 px-8  md:h-[850px]  ">
           <h1 className="font-poppins text-white  md:text-[47px] text-[33px] text-left ">
-            We are looking for great 
+            We are always looking for great 
             <span className="font-bold"> nuclear talent </span>
           </h1>
           <p className="font-poppins text-white  text-[18px] md:text-left text-center">

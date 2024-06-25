@@ -27,7 +27,7 @@ const SectionTwo = () => {
   ];
   return (
     <>
-      <div className="bg-white   mt-12 xl:mt-0 xl:h-[600px] w-screen flex flex-col  xl:items-center xl:justify-center gap-[70px] xl:px-[60px]">
+      <div className="bg-white   mt-12 xl:mt-0 xl:h-[400px] w-screen flex flex-col  xl:items-center xl:justify-center gap-[40px] xl:px-[60px]">
         <div className="flex justify-evenly w-screen xl:px-[200px] ">
           <div className="flex flex-col w-1/2 justify-center items-center">
             <div className="h-[2px] w-full bg-gradient-to-r from-white to-[#8A3DEFD9]"></div>

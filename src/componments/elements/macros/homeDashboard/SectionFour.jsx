@@ -23,7 +23,7 @@ const SectionFour = () => {
     },
   ];
   return (
-    <div className="bg-gradient-to-r from-[#2B1845] to-[#6B3BAB] xl:h-[800px]  w-screen flex xl:flex-row flex-col px-8 xl:px-0  py-12   xl:pb-0 pb-16 gap-4 xl:gap-0 ">
+    <div className="bg-gradient-to-r from-[#2B1845] to-[#6B3BAB] xl:h-[800px]  w-screen flex xl:flex-row flex-col px-8 xl:px-0  py-12 xl:py-5   xl:pb-0 pb-16 gap-4 xl:gap-0 ">
         <h1 className="  xl:hidden text-center  text-white   font-bold font-poppins  text-[33px]">
             Candidates
           </h1>
