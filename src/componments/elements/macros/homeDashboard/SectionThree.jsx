@@ -26,7 +26,7 @@ const SectionThree = () => {
   ];
 
   return (
-    <div className="bg-white xl:h-[463px] mt-[100px] xl:mt-0 mb-[150px] w-screen flex xl:flex-row  flex-col  items-center justify-center xl:gap-[40px]  gap-14 px-10">
+    <div className="bg-white xl:h-[463px] mt-[100px] xl:mt-0 mb-[150px] xl:mb-[100px] w-screen flex xl:flex-row  flex-col  items-center justify-center xl:gap-[40px]  gap-14 px-10">
       {arr.map((data, index) => {
         return (
           <HomeCard

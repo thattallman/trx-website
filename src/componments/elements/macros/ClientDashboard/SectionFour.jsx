@@ -40,7 +40,7 @@ const SectionFour = () => {
   ];
 
   return (
-    <div className="bg-white xl:h-[493px] w-screen md:px-16 px-8 flex flex-col gap-[20px] mb-32">
+    <div className="bg-white xl:h-[600px] w-screen md:px-16 px-8 flex flex-col gap-[20px] mb-[50px]">
       <div className="w-full md:grid md:grid-cols-3 gap-[20px] flex flex-col ">
         <div className="flex justify-center items-center">
           <h1 className="font-poppins md:text-[47px] text-[33px] text-center font-bold  ">

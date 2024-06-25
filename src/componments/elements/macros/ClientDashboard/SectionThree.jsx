@@ -23,7 +23,7 @@ const SectionThree = () => {
   ];
 
   return (
-    <div className="bg-white xl:h-[670px] w-screen xl:px-14 px-8 xl:pt-[5px] mb-12 xl:mb-0 flex flex-col gap-[30px]  ">
+    <div className="bg-white xl:h-[650px] xl:mt-[-10px]  w-screen xl:px-14 px-8  mb-12 xl:mb-0 flex flex-col gap-[30px]  ">
       <div className="flex flex-col items-center  gap-[30px] ">
         <h1 className="font-poppins xl:text-[47px] text-[33px] text-center font-bold ">
           Large Range of Disciples

@@ -23,7 +23,7 @@ const SectionThree = () => {
   ];
   return (
     <>
-      <div className="flex justify-center items-center md:mt-0 mt-44 ">
+      <div className="flex justify-center items-center md:mt-[-15px] mt-44 ">
         <h1 className="font-poppins md:text-[47px] text-[33px] font-bold ">Why Us</h1>
       </div>
       <div className="w-screen  md:grid md:grid-cols-8 md:mt-6  mt-8 flex flex-col  px-12 gap-[20px]  md:gap-[40px] ">
