@@ -21,11 +21,11 @@ export default {
       keyframes: {
         scroll: {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(calc(-250px * 7))' },
+          '100%': { transform: 'translateX(calc(-250px * 70))' },
         },
       },
       animation: {
-        scroll: 'scroll 14s linear infinite',
+        scroll: 'scroll 90s linear infinite',
       },
     },
   },

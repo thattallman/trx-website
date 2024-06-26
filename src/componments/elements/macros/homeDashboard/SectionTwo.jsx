@@ -25,6 +25,13 @@ const SectionTwo = () => {
       name: "Uranium Mining ",
     },
   ];
+  const repeatedSectorsArray = Array(10).fill(sectorsArray).flat();
+  const print = () => {
+    console.log(repeatedSectorsArray.length);
+  
+  };
+  print()
+
   return (
     <>
       <div className="bg-white   mt-12 xl:mt-0 xl:h-[400px] w-screen flex flex-col  xl:items-center xl:justify-center gap-[40px] xl:px-[60px]">
@@ -45,7 +52,7 @@ const SectionTwo = () => {
 
         <div className="slider w-11/12 h-[100px] bg-[#F9F4FF] overflow-hidden relative mx-auto ">
           <div className="slide-track flex animate-scroll">
-            {sectorsArray.concat(sectorsArray).map((sector, index) => (
+            {repeatedSectorsArray.map((sector, index) => (
               <div
                 key={index}
                 className="slide mx-10 h-[100px] flex-shrink-0 flex items-center justify-center"
