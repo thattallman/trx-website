@@ -11,17 +11,20 @@ import  ClientPage from "./pages/landing/Client";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
+  
       {/* <RenderRoutes /> */}
-      <Routes>
+     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/client" element={<ClientPage />} />
       <Route path="/candidates" element={<CandidatePage />} />
       </Routes>
+   
 
       <Navbar />
-      <MobileHeader />
-    </BrowserRouter>
+      </>
+   
+ 
   );
 }
 
