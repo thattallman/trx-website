@@ -1,10 +1,23 @@
 import React from "react";
 import trxStar from "../../../../assets/icons/trxStar.png";
 import trxGif from '../../../../assets/gifs/texGif.gif'
+import AnimationStar2 from '../../../../assets/icons/AnimationStar2.json'
+import Lottie from 'lottie-react';
 const SectionOne = () => {
+  const style = {
+    height: 2000
+   
+   
+  };
+  const style2 = {
+    height: 400
+   
+   
+  };
+  
   return (
     <>
-      <div className=" md:flex w-[762px] absolute  h-[762px] top-[-354px] left-[-356px] bg-custom-colour  ">
+      <div className=" md:flex md:w-[762px] w-[700px] absolute  h-[762px] top-[-354px] left-[-356px] bg-custom-colour  ">
   
       </div>
 
@@ -33,9 +46,13 @@ const SectionOne = () => {
           </div>
         </div>
 
-        <div className=" w-full  md:w-1/2 md:h-screen flex justify-center items-center  ">
+        <div className="  hidden md:w-1/2 md:h-screen md:flex justify-center items-center  ">
           {/* <img src={trxStar} className="md:w-[791px] md:h-[781px] w-[360px]   " /> */}
-          <img src={trxStar} className=" md:w-[800px] md:h-[800px] w-[360px]  bg-transparent   " />
+          <Lottie animationData={AnimationStar2} style={style}   />
+        </div>
+        <div className=" w-full  md:hidden  flex justify-center items-center  ">
+          {/* <img src={trxStar} className="md:w-[791px] md:h-[781px] w-[360px]   " /> */}
+          <Lottie animationData={AnimationStar2} style={style2}   />
         </div>
 
       </div>

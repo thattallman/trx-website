@@ -68,21 +68,26 @@ const Form = () => {
       console.log("Returning ");
       return;
     }
+    const formData = new FormData();
+    formData.append(
+      "data",
+      JSON.stringify({
+        first_name: formik.values.firstName,
+        email: formik.values.email,
+        phone: {
+          cid: Countryid,
+          phone_number: phoneNumber,
+          country_code: countryCode,
+        },
+        enquiry: formik.values.enquiry,
+        subject: formik.values.subject,
+      })
+    );
 
-    const userData = {
-      first_name: formik.values.firstName,
-      email: formik.values.email,
-      phone: {
-        cid: Countryid,
-        phone_number: phoneNumber,
-        country_code: countryCode,
-      },
-      enquiry: formik.values.enquiry,
-      subject: formik.values.subject,
-    };
+  
 
     try {
-      const userRes = await messageRequest(userData);
+      const userRes = await messageRequest(formData);
       console.log(userRes?.msg);
 
       if (userRes?.msg === "success") {

@@ -1,12 +1,12 @@
 import axios from "axios";
 
-export const API_BASE_URL = "https://api.avua.com";
+export const API_BASE_URL = "https://api.avua.online";
 
 export const messageRequest = async (userData) => {
   return axios
     .post(`${API_BASE_URL}/trx/external/v1/enquiry-form`, userData, {
       headers: {
-        "Content-Type": "application/json",
+        "Content-Type": "multipart/form-data",
       },
     })
     .then((response) => {
