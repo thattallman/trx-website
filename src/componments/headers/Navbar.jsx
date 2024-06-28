@@ -12,7 +12,7 @@ const Navbar = () => {
           className="relative h-[86px] w-[73px] opacity-100 "
         />
       </div></Link>
-      <div className="flex gap-[75px]">
+      <div className="flex gap-[60px]">
 
 
         <Link to="/client">

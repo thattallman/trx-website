@@ -260,7 +260,6 @@ const FormCandidate = () => {
       email: "",
       enquiry: "",
       subject: "",
-    
     },
     validationSchema: Yup.object({
       firstName: Yup.string().required("name is required"),
@@ -338,8 +337,6 @@ const FormCandidate = () => {
         subject: formik.values.subject,
       })
     );
-  
-
 
     try {
       const userRes = await messageRequest(formData);
@@ -465,17 +462,28 @@ const FormCandidate = () => {
               accept=".pdf,.doc,.docx"
               className="hidden"
               id="resumeInput"
-              name={'resume'}
+              name={"resume"}
               onChange={handleFileChange}
             />
             <label htmlFor="resumeInput" className="cursor-pointer">
-              {resume ? resume.name : "Choose file or Drop a file here"}
+              {resume ? (
+                resume.name
+              ) : (
+                <h1>
+                  {" "}
+                  <span
+                    className="text-[#6B3BAB]"
+                  >
+                    {" "}
+                    Choose file
+                  </span>{" "}
+                  or Drop a file here{" "}
+                </h1>
+              )}
             </label>
           </div>
           {formik.errors.resume && formik.touched.resume && (
-            <p className=" text-red-500 text-poppins">
-              {formik.errors.resume}
-            </p>
+            <p className=" text-red-500 text-poppins">{formik.errors.resume}</p>
           )}
         </div>
         {/* upload resume section ends here  */}

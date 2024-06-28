@@ -19,7 +19,7 @@ const SectionTwo = () => {
       name: "Radioactive Waste Management",
     },
     {
-      name: "Fuel Handeling ",
+      name: "Fuel Handling ",
     },
     {
       name: "Uranium Mining ",
