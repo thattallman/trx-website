@@ -1,7 +1,7 @@
 import React from "react";
 import trxStar from "../../../../assets/icons/trxStar.png";
 import trxGif from '../../../../assets/gifs/texGif.gif'
-import AnimationStar2 from '../../../../assets/icons/AnimationStar2.json'
+import AnimationStar3 from '../../../../assets/icons/AnimationStar3.json'
 import Lottie from 'lottie-react';
 const SectionOne = () => {
   const style = {
@@ -48,11 +48,11 @@ const SectionOne = () => {
 
         <div className="  hidden md:w-1/2 md:h-screen md:flex justify-center items-center  ">
           {/* <img src={trxStar} className="md:w-[791px] md:h-[781px] w-[360px]   " /> */}
-          <Lottie animationData={AnimationStar2} style={style}   />
+          <Lottie animationData={AnimationStar3} style={style}   />
         </div>
         <div className=" w-full  md:hidden  flex justify-center items-center  ">
           {/* <img src={trxStar} className="md:w-[791px] md:h-[781px] w-[360px]   " /> */}
-          <Lottie animationData={AnimationStar2} style={style2}   />
+          <Lottie animationData={AnimationStar3} style={style2}   />
         </div>
 
       </div>
